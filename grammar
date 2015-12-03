@@ -1,0 +1,11 @@
+$hari = SENIN | SELASA | RABU | KAMIS | JUMAT | SABTU | MINGGU;
+$jumlah = SATU | DUA | TIGA | EMPAT;
+$jenisKamar = STANDARD | SUPERIOR | DELUXE | SUITE;
+$denganTidak = DENGAN | TANPA;
+( SENT-START (
+	SAYA PESAN $jumlah KAMAR |
+	UNTUK $jumlah (ORANG | MALAM) |
+	PADA HARI $hari |
+	KAMAR $jenisKamar |
+	$denganTidak SARAPAN
+) SENT-END)
