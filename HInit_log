@@ -1,0 +1,52 @@
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_DELUXE -l DELUXE -L data/labels/ DELUXE 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_DENGAN -l DENGAN -L data/labels/ DENGAN 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_DUA -l DUA -L data/labels/ DUA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_EMPAT -l EMPAT -L data/labels/ EMPAT 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_HARI -l HARI -L data/labels/ HARI 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_JUMAT -l JUMAT -L data/labels/ JUMAT 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_KAMAR -l KAMAR -L data/labels/ KAMAR 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_KAMIS -l KAMIS -L data/labels/ KAMIS 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_MALAM -l MALAM -L data/labels/ MALAM 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_MINGGU -l MINGGU -L data/labels/ MINGGU 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_ORANG -l ORANG -L data/labels/ ORANG 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_PADA -l PADA -L data/labels/ PADA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_PESAN -l PESAN -L data/labels/ PESAN 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_RABU -l RABU -L data/labels/ RABU 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SABTU -l SABTU -L data/labels/ SABTU 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SARAPAN -l SARAPAN -L data/labels/ SARAPAN 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SATU -l SATU -L data/labels/ SATU 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SAYA -l SAYA -L data/labels/ SAYA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SELASA -l SELASA -L data/labels/ SELASA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SENIN -l SENIN -L data/labels/ SENIN 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_STANDARD -l STANDARD -L data/labels/ STANDARD 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SUITE -l SUITE -L data/labels/ SUITE 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_SUPERIOR -l SUPERIOR -L data/labels/ SUPERIOR 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_TANPA -l TANPA -L data/labels/ TANPA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_TIGA -l TIGA -L data/labels/ TIGA 
+
+C:\Data\Kuliah\Semester 7\NLP\Speech\Tubes HTK>HInit -S mfccList -M model/hmm0 -H model/proto/hmm_UNTUK -l UNTUK -L data/labels/ UNTUK 
