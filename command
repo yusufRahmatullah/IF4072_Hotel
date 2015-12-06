@@ -39,3 +39,6 @@ HERest -T 10 -C mfccConfig -I wintri.mlf -t 250.0 150.0 100.0 -s stats -S mfccLi
 # testing
 HVite -H model/hmm15/macros -H model/hmm15/hmmdefs -S testList -l '*' -i recout.mlf -w wdnet -p 0.0 -s 5.0 dict tiedlist
 HResults -I testref.mlf tiedlist recout.mlf
+
+# live testing
+HVite -H model/hmm15/macros -H model/hmm15/hmmdefs -C recogConfig -w wdnet -p 0.0 -s 5.0 dict tiedlist
