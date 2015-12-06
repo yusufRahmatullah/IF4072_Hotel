@@ -3,8 +3,8 @@ HDMan -m -w wlist -n monophones1 -l dlog dict lexicon
 # ubah dict, tambahin SENT-END dan SENT-START
 HLEd -l '*' -d dict -i phones0.mlf mkphones0.led words.mlf
 
-HCopy -T 1 -C mfccConfig -S mfccTargetList -F WAV
-HCompV -C mfccConfig -f 0.01 -m -S mfccList -M model/hmm0 proto
+HCopy -C hcopyConfig -S mfccTargetList -F WAV
+HCompV -C mfccConfig -m -f 0.01 -S mfccList -M model/hmm0 proto
 
 HERest -C mfccConfig -I phones0.mlf -t 250.0 150.0 1000.0 -S mfccList -H model/hmm0/macros -H model/hmm0/hmmdefs -M model/hmm1 monophones0
 HERest -C mfccConfig -I phones0.mlf -t 250.0 150.0 1000.0 -S mfccList -H model/hmm1/macros -H model/hmm1/hmmdefs -M model/hmm2 monophones0

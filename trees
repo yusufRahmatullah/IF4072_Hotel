@@ -149,7 +149,9 @@ QS 'L_uw' { "uw-*" }
 QS 'L_w' { "w-*" }
 
 d[2]
-   "ST_d_2_1"
+{
+   0                   'R_ah'  "ST_d_2_1"  "ST_d_2_2" 
+}
 
 eh[2]
    "ST_eh_2_1"
@@ -158,22 +160,31 @@ l[2]
    "ST_l_2_1"
 
 uh[2]
-   "ST_uh_2_1"
+{
+   0            'R_C-Central'  "ST_uh_2_1"  "ST_uh_2_2" 
+}
 
 k[2]
    "ST_k_2_1"
 
 s[2]
-   "ST_s_2_1"
+{
+   0               'L_V-Back'  "ST_s_2_1"  "ST_s_2_2" 
+}
 
 ng[2]
    "ST_ng_2_1"
 
 ah[2]
 {
-   0                    'L_k'      -1     "ST_ah_2_4" 
-  -1          'L_NonStrident'      -2     "ST_ah_2_3" 
-  -2                'L_Short'  "ST_ah_2_1"  "ST_ah_2_2" 
+   0          'L_NonStrident'      -1     "ST_ah_2_8" 
+  -1               'L_Fortis'      -2         -4    
+  -2                'L_Short'      -3     "ST_ah_2_4" 
+  -3                 'L_Back'      -5         -6    
+  -4            'R_C-Central'  "ST_ah_2_5"      -7    
+  -5                 'L_Stop'  "ST_ah_2_1"  "ST_ah_2_2" 
+  -6                'L_Vowel'  "ST_ah_2_2"  "ST_ah_2_3" 
+  -7              'L_C-Front'  "ST_ah_2_6"  "ST_ah_2_7" 
 }
 
 n[2]
@@ -182,16 +193,24 @@ n[2]
 }
 
 uw[2]
-   "ST_uw_2_1"
+{
+   0                'R_Vowel'  "ST_uw_2_1"  "ST_uw_2_2" 
+}
 
 ax[2]
    "ST_ax_2_1"
 
 m[2]
-   "ST_m_2_1"
+{
+   0          'R_NonBoundary'  "ST_m_2_1"      -1    
+  -1                   'L_ah'  "ST_m_2_2"  "ST_m_2_3" 
+}
 
 p[2]
-   "ST_p_2_1"
+{
+   0          'L_NonBoundary'      -1     "ST_p_2_2" 
+  -1               'R_V-Back'  "ST_p_2_1"  "ST_p_2_2" 
+}
 
 t[2]
 {
@@ -202,7 +221,9 @@ hh[2]
    "ST_hh_2_1"
 
 r[2]
-   "ST_r_2_1"
+{
+   0                'L_Vowel'  "ST_r_2_1"  "ST_r_2_2" 
+}
 
 iy[2]
    "ST_iy_2_1"
@@ -211,7 +232,9 @@ j[2]
    "ST_j_2_1"
 
 ih[2]
-   "ST_ih_2_1"
+{
+   0                   'R_ng'  "ST_ih_2_1"  "ST_ih_2_2" 
+}
 
 g[2]
    "ST_g_2_1"
@@ -254,14 +277,15 @@ ng[3]
 
 ah[3]
 {
-   0          'L_Voiced-Cons'      -1         -3    
-  -1            'L_Unrounded'      -2         -6    
-  -2                'L_Vowel'      -5     "ST_ah_3_3" 
-  -3                    'R_r'      -4     "ST_ah_3_7" 
-  -4                 'R_Stop'  "ST_ah_3_6"  "ST_ah_3_7" 
-  -5              'R_C-Front'      -7     "ST_ah_3_2" 
-  -6          'R_NonBoundary'  "ST_ah_3_4"  "ST_ah_3_5" 
-  -7              'L_C-Front'  "ST_ah_3_1"  "ST_ah_3_4" 
+   0          'L_NonStrident'      -1     "ST_ah_3_8" 
+  -1                'L_Short'      -2     "ST_ah_3_7" 
+  -2                'L_Vowel'      -3     "ST_ah_3_6" 
+  -3             'R_Syllabic'      -4         -7    
+  -4                 'R_Stop'      -5     "ST_ah_3_4" 
+  -5            'R_C-Central'      -8         -6    
+  -6              'L_C-Front'  "ST_ah_3_2"  "ST_ah_3_3" 
+  -7                 'L_Stop'  "ST_ah_3_6"  "ST_ah_3_5" 
+  -8              'L_C-Front'  "ST_ah_3_1"  "ST_ah_3_7" 
 }
 
 n[3]
@@ -273,13 +297,19 @@ uw[3]
    "ST_uw_3_1"
 
 ax[3]
-   "ST_ax_3_1"
+{
+   0            'R_C-Central'  "ST_ax_3_1"  "ST_ax_3_2" 
+}
 
 m[3]
-   "ST_m_3_1"
+{
+   0          'R_NonBoundary'  "ST_m_3_1"  "ST_m_3_2" 
+}
 
 p[3]
-   "ST_p_3_1"
+{
+   0          'L_NonBoundary'  "ST_p_3_1"  "ST_p_3_2" 
+}
 
 t[3]
 {
@@ -290,7 +320,9 @@ hh[3]
    "ST_hh_3_1"
 
 r[3]
-   "ST_r_3_1"
+{
+   0          'R_NonBoundary'  "ST_r_3_1"  "ST_r_3_2" 
+}
 
 iy[3]
    "ST_iy_3_1"
@@ -320,7 +352,9 @@ sil[3]
    "ST_sil_3_1"
 
 d[4]
-   "ST_d_4_1"
+{
+   0                   'R_ah'  "ST_d_4_1"  "ST_d_4_2" 
+}
 
 eh[4]
    "ST_eh_4_1"
@@ -329,9 +363,7 @@ l[4]
    "ST_l_4_1"
 
 uh[4]
-{
-   0                 'R_Stop'  "ST_uh_4_1"  "ST_uh_4_2" 
-}
+   "ST_uh_4_1"
 
 k[4]
 {
@@ -342,24 +374,30 @@ s[4]
    "ST_s_4_1"
 
 ng[4]
-   "ST_ng_4_1"
+{
+   0          'R_NonBoundary'  "ST_ng_4_1"  "ST_ng_4_2" 
+}
 
 ah[4]
 {
-   0            'R_C-Central'      -2         -1    
-  -1            'L_Unrounded'      -4     "ST_ah_4_6" 
-  -2         'L_Central-Stop'      -3     "ST_ah_4_3" 
-  -3          'R_NonBoundary'  "ST_ah_4_1"  "ST_ah_4_2" 
-  -4                'R_Nasal'  "ST_ah_4_4"  "ST_ah_4_5" 
+   0                    'L_k'      -1     "ST_ah_4_7" 
+  -1           'R_Continuent'      -4         -2    
+  -2               'R_C-Back'      -3     "ST_ah_4_6" 
+  -3             'R_Syllabic'      -6     "ST_ah_4_5" 
+  -4                'L_Short'      -5     "ST_ah_4_2" 
+  -5         'L_Central-Stop'  "ST_ah_4_1"  "ST_ah_4_3" 
+  -6                    'L_m'  "ST_ah_4_3"  "ST_ah_4_4" 
 }
 
 n[4]
 {
-   0                 'R_Stop'  "ST_n_4_1"  "ST_n_4_2" 
+   0                    'R_t'  "ST_n_4_1"  "ST_n_4_2" 
 }
 
 uw[4]
-   "ST_uw_4_1"
+{
+   0                'R_Vowel'  "ST_uw_4_1"  "ST_uw_4_2" 
+}
 
 ax[4]
    "ST_ax_4_1"
@@ -374,7 +412,8 @@ p[4]
 
 t[4]
 {
-   0           'L_UnStrident'  "ST_t_4_1"  "ST_t_4_2" 
+   0                   'R_uh'      -1     "ST_t_4_2" 
+  -1                 'R_High'  "ST_t_4_1"  "ST_t_4_2" 
 }
 
 hh[4]
